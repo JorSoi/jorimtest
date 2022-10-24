@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/cars', async (req, res) => {
-   const db_res = await pool.query("SELECT * FROM cars");
+   const db_res = await pool.query("SELECT * FROM cars;");
    res.send(db_res);
 })
 
