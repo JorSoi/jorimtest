@@ -4,5 +4,23 @@
     "node-postgres": "^0.6.2",
     "nodemon": "^2.0.20",
     "pg": "^8.8.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "jorimtest",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorSoi/jorimtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorSoi/jorimtest/issues"
+  },
+  "homepage": "https://github.com/JorSoi/jorimtest#readme",
+  "description": ""
 }
